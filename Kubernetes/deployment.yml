@@ -17,5 +17,6 @@ spec:
       containers:
       - name: netflix-app
         image: bibhishandhagate/netflix:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
